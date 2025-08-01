@@ -3,8 +3,19 @@ import React from 'react'
 const Hero = () => {
   return (
     <div>
-        <h1 className="text-4xl font-bold">Welcome to Our Website</h1>
-        <p className="mt-4 text-lg">We are glad to have you here. Explore our content and enjoy your stay!</p>
+       <div className="relative bg-blue-100">
+  {/* Background image or content */}
+  <div className="h-[300px] bg-gradient-to-r from-blue-300 to-pink-200"></div>
+
+  {/* Curved white section */}
+  <div className="relative bg-white rounded-t-[100px] -mt-[100px] p-8">
+    <h2 className="text-3xl font-bold text-center">
+      Get quick loans on your preferred channels
+    </h2>
+    {/* Add your navigation or other content below */}
+  </div>
+</div>
+
     </div>
   )
 }
